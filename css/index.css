@@ -1,0 +1,352 @@
+.topnav {
+    height: 100px;
+    background: #fff;
+}
+
+.inner {
+    position: relative;
+}
+
+.inner .logo a {
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    background: url(../images/logo.jpg) no-repeat top center;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.login {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.inner .login a:last-child {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    background-color: #f92525;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.login .settings {
+    font-family: "icomoon";
+    color: gray;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.login .bell {
+    font-family: "icomoon";
+    color: gray;
+    font-size: 18px;
+    margin: 0px 25px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.content .nav .text {
+    width: 270px;
+    height: 80px;
+}
+
+.content .nav .text span {
+    color: gray;
+    font-size: 25px;
+}
+
+.content .nav .text p {
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.content .nav .tab {
+    margin-top: 35px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+}
+
+.content .nav .tab a {
+    color: #000;
+}
+
+.content .nav .tab {
+    height: 25px;
+}
+
+.content .nav .tab li {
+    float: left;
+    line-height: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.content .tab .overspan {
+    display: inline-block;
+    background-color: #ccc;
+    width: 65px;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition: all 0.4s linear;
+}
+
+.content .banner {
+    height: 285px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content .banner .analytics {
+    width: 540px;
+    height: 265px;
+    background-color: #ffffff;
+    position: relative;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+
+.analytics ol {
+    width: 3245px;
+    height: 265px;
+    position: absolute;
+    left: 0px;
+    transition: all 0.1s;
+}
+
+.analytics ol li {
+    width: 540px;
+    height: 265px;
+    float: left;
+    overflow: hidden;
+}
+
+.analytics ol img {
+    width: 540px;
+    height: 265px;
+}
+
+.analytics ul {
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-left: -50px;
+}
+
+.analytics ul li {
+    width: 8px;
+    height: 8px;
+    margin: 0px 3px;
+    background-color: #eee;
+    float: left;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.analytics .clss {
+    width: 8px;
+    height: 10px;
+    margin-top: -2px;
+    vertical-align: bottom;
+}
+
+.content .banner .support {
+    width: 560px;
+    height: 285px;
+    background-color: #fff;
+}
+
+.banner .analytics .l_action {
+    font-family: "icomoon";
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    color: #ccc;
+    font-size: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -15px;
+    display: none;
+}
+
+.banner .analytics .r_action {
+    font-family: "icomoon";
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    color: #ccc;
+    font-size: 40px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    margin-top: -15px;
+    display: none;
+}
+
+.banner .support .view {
+    height: 100px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+
+/* .banner .support .request {} */
+
+.support .request span {
+    display: inline-block;
+    height: 100px;
+    color: gray;
+    font-size: 18px;
+    line-height: 100px;
+    margin-left: 45px;
+}
+
+.request .view button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -20px;
+    background-color: #ffffff;
+    border: 2px solid #eee;
+    cursor: pointer;
+    outline: none;
+}
+
+.request .information {
+    width: 465px;
+    height: 160px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.request .information_time {
+    width: 155px;
+    height: 160px;
+    float: left;
+    text-align: left;
+}
+
+.request .information_time li {
+    height: 45px;
+}
+
+.request .information_name {
+    width: 155px;
+    height: 160px;
+    float: left;
+}
+
+.request .information_name li {
+    height: 45px;
+    text-align: left;
+    margin-left: -25px;
+}
+
+.request .information_status {
+    width: 150px;
+    height: 160px;
+    text-align: right;
+    float: right;
+}
+
+.request .information_status li {
+    height: 45px;
+}
+
+.request .information_status button {
+    width: 55px;
+    height: 30px;
+    background-color: seagreen;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: #ccc;
+}
+
+
+/* .content .market {
+    height: 350px;
+    background: #000;
+    margin-top: 20px;
+} */
+
+.footer {
+    height: 290px;
+    background-color: #202124;
+}
+
+.footer .footer_logo {
+    width: 190px;
+    height: 290px;
+    float: left;
+}
+
+.footer_logo .logo a {
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    background: url(../images/logo.jpg) no-repeat top center;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.footer .footer_nav {
+    width: 190px;
+    height: 290px;
+    float: left;
+    color: #fff;
+}
+
+.footer .footer_nav ul {
+    margin-top: 70px;
+}
+
+.footer .footer_nav li {
+    height: 30px;
+    color: #f5f5f5;
+}
+
+.pageview {
+    height: 350px;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+
+.market {
+    height: 350px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.market_l {
+    width: 555px;
+    height: 350px;
+}
+
+.market_r {
+    width: 555px;
+    height: 350px;
+}

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?7kkyc2") format("svg");
+    src: url("../fonts/icomoon.eot?7kkyc2#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?7kkyc2") format("truetype"), url("../fonts/icomoon.woff?7kkyc2") format("woff"), url("../fonts/icomoon.svg?7kkyc2#icomoon") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1.3 "Microsoft YaHei", Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+    color: #333;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+/* 清除浮动 */
+
+.clearfix::after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+    visibility: hidden;
+}
+
+.w {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: #f5f8f9;
+    height: 1500px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
